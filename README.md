@@ -8,6 +8,8 @@ This image uses an unprivileged user, and uses port `5050` instead of `80`.
 To access the web-interface on port `80` instead of `5050`, you can map the
 port using `-p 80:5050`.
 
+_forked from [thaJetza/pgadmin4-docker](https://github.com/thaJeztah/pgadmin4-docker) _so I could add their outstanding pull requests and build for arm64v8 and arm64v32, since those architectures don't seem to be available on docker hub at the moment._
+
 ## Example use
 
 ### Quick start
